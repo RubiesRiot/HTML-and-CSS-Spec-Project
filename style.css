@@ -85,6 +85,7 @@ p {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    border: 1px solid black;
 }
 
 .info-container span {
@@ -99,7 +100,7 @@ p {
 .info-container ul {
     list-style-type: none; /* Remove bullet points */
     padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
+    margin-top: 5px; /* Remove margin */
 }
 
 footer {
