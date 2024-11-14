@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: calibri;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -71,7 +71,7 @@ main {
 
 h6 {
     margin-top: 10px;
-    size: 16px;
+    size: 20px;
 }
 
 p {
