@@ -65,7 +65,8 @@ main {
 .image-container {
     text-align: center; /* Center the image */
     margin: 20px 0;
-    width: 60%;
+    width: 100%;
+    height:auto;
     overflow: hidden;
 }
 
