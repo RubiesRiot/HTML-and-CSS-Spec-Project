@@ -83,8 +83,9 @@ p {
 
 .info-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
+    padding: 20px;
     border: 1px solid black;
 }
 
