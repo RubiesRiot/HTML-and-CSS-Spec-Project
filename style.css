@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+.signin {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signin:hover {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+}
+
+nav ul {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+main {
+    padding: 20px 15% 20px 15%;
+}
+
+.subhead {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.image-container {
+    text-align: center; /* Center the image */
+    margin: 20px 0;
+}
+
+h6 {
+    margin-top: 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-container span {
+   
